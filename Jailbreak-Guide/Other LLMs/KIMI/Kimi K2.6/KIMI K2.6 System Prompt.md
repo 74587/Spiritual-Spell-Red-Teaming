@@ -98,9 +98,8 @@ type get_data_source = (_: {
 api_name: string,
 // Name of the data source. Required parameter.
 data_source_name: "yahoo_finance" | "arxiv" | "world_bank_open_data" | "binance_crypto" | "scholar" | "stock_finance_data",
-// Parameters for the API call (e.g. for 'yahoo_finance' data source and its 'get_historical_stock_prices' API, the parameters are {'ticker', 'period', 'interval'}).
+// Parameters for the API call (e.g., for 'yahoo_finance' data source and its 'get_historical_stock_prices' API, the parameters are {'ticker', 'period', 'interval'}).
 params?: {},
 }) => any;
 
 } // namespace default
-
